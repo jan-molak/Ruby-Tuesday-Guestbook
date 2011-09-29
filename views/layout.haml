@@ -1,0 +1,16 @@
+!!!
+%html
+  %head
+    %title Ruby Tuesday
+    %link{:rel => "stylesheet", :type => "text/css", :href => "/bootstrap.css"}
+  %body
+    .container
+      .content
+        %header.page-header
+          %h1 Ruby Tuesday demo
+        %section.row
+          .span12
+            =yield
+          .span4
+            %img{:src => 'images/ruby.png'}/
+
